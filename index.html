@@ -14,38 +14,50 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="logo container">
-        <img src="./img/Logo.png" alt="Logo boolean" />
+      <div class="container">
+        <div class="logo">
+          <img src="./img/Logo.png" alt="Logo boolean" />
+        </div>
+        <div class="header-title">Toboolist</div>
       </div>
-      <div class="header-title container">Toboolist</div>
     </header>
 
-    <main>
+    <main class="main-content">
       <div class="container">
-        <div class="card">
+        <div class="button-card">
           <section class="buttons">
             <div>
-              <button></button>
-              <button></button>
+              <button class="button blue">Add Task</button>
+              <button class="button white">Add Section</button>
             </div>
           </section>
-
+        </div>
+        <div class="task-card">
           <section class="task-lists">
             <ul>
               <li class="new-task">
-                <ul></ul>
+                New Task
+                <ul>
+                  <li class="check">Quarterly Newsletter</li>
+                </ul>
               </li>
               <li class="today-task">
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
+                Today
+                <ul>
+                  <li class="check">Recruiting blog post</li>
+                  <li class="check">Mobile app launch</li>
+                  <li class="cross">Interveiw Jonh H.</li>
+                  <li class="check">Summit update to mibile storefronts</li>
+                </ul>
               </li>
               <li class="upcoming-task">
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
-                <ul></ul>
+                Upcoming
+                <ul>
+                  <li class="cross">Schedule meeting with Alex</li>
+                  <li class="check">Homepage refresh</li>
+                  <li class="check">Onboard new Sales team members</li>
+                  <li class="check">REview editorial calendar</li>
+                </ul>
               </li>
             </ul>
           </section>

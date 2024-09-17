@@ -9,6 +9,11 @@ html {
   font-family: "Poppins";
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 /* Regole di layout */
 .container {
   max-width: 1024px;
@@ -38,7 +43,37 @@ body {
 
 /* main */
 
-.card {
+.button-card {
   background-color: aliceblue;
   margin-top: 30px;
+}
+
+.buttons {
+  padding: 10px 50px;
+}
+
+.button {
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+.task-card {
+  background-color: aliceblue;
+  margin-top: 6px;
+}
+
+/* utilities */
+
+.blue {
+  background-color: rgb(121, 201, 255);
+  color: white;
+  border: none;
+}
+
+.white {
+  background-color: rgb(234, 234, 234);
+  color: rgb(157, 154, 154);
+  border-color: rgb(153, 151, 151);
+  border-width: 1px;
 }

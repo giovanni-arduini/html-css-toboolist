@@ -21,13 +21,12 @@ ol {
 }
 
 body {
-  background-color: rgb(226, 242, 242);
+  background-color: rgb(236, 242, 247);
 }
 
 /* header */
 .main-header {
   padding: 10px 30px;
-  background-color: aliceblue;
 }
 
 .header-title,
@@ -44,11 +43,7 @@ body {
 /* main */
 
 .button-card {
-  background-color: aliceblue;
   margin-top: 30px;
-}
-
-.buttons {
   padding: 10px 50px;
 }
 
@@ -59,9 +54,30 @@ body {
 }
 
 .task-card {
-  background-color: aliceblue;
   margin-top: 6px;
+  padding: 40px 50px;
 }
+
+.task {
+  list-style-type: circle;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.item {
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.today,
+.upcoming {
+  margin-top: 20px;
+}
+
+/* .check {
+  font-size: 1em;
+  list-style-image: url(../img/check-circle-svgrepo-com.svg);
+} */
 
 /* utilities */
 
@@ -76,4 +92,8 @@ body {
   color: rgb(157, 154, 154);
   border-color: rgb(153, 151, 151);
   border-width: 1px;
+}
+
+.alice {
+  background-color: aliceblue;
 }

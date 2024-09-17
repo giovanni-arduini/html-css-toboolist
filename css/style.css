@@ -12,11 +12,17 @@ html {
 /* Regole di layout */
 .container {
   max-width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(226, 242, 242);
 }
 
 /* header */
 .main-header {
   padding: 10px 30px;
+  background-color: aliceblue;
 }
 
 .header-title,
@@ -31,3 +37,8 @@ html {
 }
 
 /* main */
+
+.card {
+  background-color: aliceblue;
+  margin-top: 30px;
+}

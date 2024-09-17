@@ -74,6 +74,13 @@ body {
   margin-top: 20px;
 }
 
+.label {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
 /* .check {
   font-size: 1em;
   list-style-image: url(../img/check-circle-svgrepo-com.svg);
@@ -96,4 +103,24 @@ body {
 
 .alice {
   background-color: aliceblue;
+}
+
+.purple {
+  background-color: rgb(176, 119, 226);
+}
+
+.sage {
+  background-color: rgb(85, 165, 120);
+}
+
+.orange {
+  background-color: orange;
+}
+
+.pink {
+  background-color: rgb(200, 105, 121);
+}
+
+.green {
+  background-color: greenyellow;
 }

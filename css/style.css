@@ -1,0 +1,33 @@
+/* RESET RULES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins";
+}
+
+/* Regole di layout */
+.container {
+  max-width: 1024px;
+}
+
+/* header */
+.main-header {
+  padding: 10px 30px;
+}
+
+.header-title,
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* main */
